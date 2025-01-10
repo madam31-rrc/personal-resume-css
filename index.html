@@ -9,7 +9,7 @@
 <body>
 
     <!-- Header Section -->
-    <header>
+    <header role="banner">
         <!-- Profile Image -->
         <img src="images/image0.jpeg" alt="Muniru Adam - Professional Profile Picture" style="width:150px;height:auto;">
          <!-- SVG Graphic: Personal Logo -->
@@ -23,28 +23,38 @@
         <p>Web Developer | Software Developer</p>
     </header>
 
+    <!-- Navigation Section (Keyboard Navigable) -->
+    <nav role="navigation">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul>
+    </nav>
+
     <!-- About Section -->
-    <section>
-        <h2>About Me</h2>
-        <p>I am a highly motivated individual with experience in web development<br> 
-            and a passion for creating accessible and user-friendly websites.</p>
+     <section id="about" role="region" aria-labelledby="about-heading">
+        <h2 id="about-heading">About Me</h2>
+        <p>I am a dedicated and results-driven web developer with a strong focus on creating accessible and user-friendly websites.</p>
     </section>
 
     <!-- Skills Section -->
-    <section>
-        <h2>Skills</h2>
+    <section id="skills" role="region" aria-labelledby="skills-heading">
+        <h2 id="skills-heading">Skills</h2>
         <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Git & GitHub</li>
+            <li>Web Development: HTML, CSS, JavaScript, React</li>
+            <li>Backend Technologies: Node.js, Express, MongoDB</li>
+            <li>Version Control: Git & GitHub</li>
             <li>Responsive Web Design</li>
+            <li>Problem-solving and debugging</li>
+            <li>Financial Systems Integration</li>
         </ul>
     </section>
 
-    <!-- Experience Section -->
-    <section>
-        <h2>Work Experience</h2>
+    <!-- Work Experience Section -->
+    <section id="experience" role="region" aria-labelledby="experience-heading">
+        <h2 id="experience-heading">Work Experience</h2>
         <article>
             <h3>Web Developer - PiXELL River Financial</h3>
             <p><strong>Duration:</strong> Jan 2023 - Present</p>
@@ -54,8 +64,8 @@
     </section>
 
     <!-- Education Section -->
-     <section>
-        <h2>Education</h2>
+    <section id="education" role="region" aria-labelledby="education-heading">
+        <h2 id="education-heading">education</h2>
         <p><strong>Bachelor of Science In Application Development and Delivery</strong></p>
         <p><strong>Red River College</strong> - Graduated: 2024</p>
         <p>Specialized in Web Development and Software Engineering. Took courses<br>
@@ -64,8 +74,8 @@
      </section>
 
     <!-- Footer Section -->
-    <footer>
-        <p>Contact Me: adam.munir1686@gmail.com</p>
+    <footer role="contentinfo">
+        <p>Contact Me: <a href="mailto:adam.munir1686@gmail.com">adam.munir1686@gmail.com</a></p>
         <li><a href="https://www.linkedin.com/in/muniruadam" target="_blank">LinkedIn</a></li>
         <li><a href="https://github.com/muniruadam" target="_blank">GitHub</a></li>
         <p>&copy; 2025 Muniru Adam</p>
