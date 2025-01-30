@@ -30,3 +30,34 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+/* Base Styles */
+body {
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 20px;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
