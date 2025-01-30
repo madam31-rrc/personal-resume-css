@@ -1,0 +1,13 @@
+/* General Styling */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #d6720d;
+}
+
+/* Layout using Flexbox */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
